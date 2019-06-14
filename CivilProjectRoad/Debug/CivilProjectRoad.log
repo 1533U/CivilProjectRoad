@@ -1,2 +1,4 @@
 ﻿  Main.cpp
+c:\users\olivi\source\repos\civilprojectroad\civilprojectroad\main.cpp(52): warning C4018: '<': signed/unsigned mismatch
+c:\users\olivi\source\repos\civilprojectroad\civilprojectroad\main.cpp(111): warning C4018: '<': signed/unsigned mismatch
   CivilProjectRoad.vcxproj -> C:\Users\olivi\source\repos\CivilProjectRoad\Debug\CivilProjectRoad.exe
