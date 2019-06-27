@@ -1,4 +1,66 @@
 ﻿  Main.cpp
-c:\users\olivi\source\repos\civilprojectroad\civilprojectroad\main.cpp(52): warning C4018: '<': signed/unsigned mismatch
-c:\users\olivi\source\repos\civilprojectroad\civilprojectroad\main.cpp(111): warning C4018: '<': signed/unsigned mismatch
+c:\users\olivi\source\repos\civilprojectroad\civilprojectroad\main.cpp(81): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\olivi\source\repos\civilprojectroad\civilprojectroad\main.cpp(87): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\olivi\source\repos\civilprojectroad\civilprojectroad\main.cpp(121): warning C4018: '<': signed/unsigned mismatch
+c:\users\olivi\source\repos\civilprojectroad\civilprojectroad\main.cpp(124): warning C4018: '<': signed/unsigned mismatch
+c:\users\olivi\source\repos\civilprojectroad\civilprojectroad\main.cpp(183): warning C4018: '<': signed/unsigned mismatch
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(881): warning C4244: 'initializing': conversion from 'const _Ty' to '_Objty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Objty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(900): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const double&>(_Alloc &,_Objty *const ,const double &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Ty=float,
+              _Objty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(902): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const double&>(_Alloc &,_Objty *const ,const double &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Ty=float,
+              _Objty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(916): note: see reference to function template instantiation 'void std::vector<float,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<const double&>(const double &)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(694): note: see reference to function template instantiation 'void std::vector<float,std::allocator<_Ty>>::emplace_back<const double&>(const double &)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(723): note: see reference to function template instantiation 'void std::vector<float,std::allocator<_Ty>>::_Range_construct_or_tidy<_Iter>(_Iter,_Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Ty=float,
+              _Iter=std::istream_iterator<double,char,std::char_traits<char>,ptrdiff_t>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(723): note: see reference to function template instantiation 'void std::vector<float,std::allocator<_Ty>>::_Range_construct_or_tidy<_Iter>(_Iter,_Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Ty=float,
+              _Iter=std::istream_iterator<double,char,std::char_traits<char>,ptrdiff_t>
+          ]
+  c:\users\olivi\source\repos\civilprojectroad\civilprojectroad\main.cpp(167): note: see reference to function template instantiation 'std::vector<float,std::allocator<_Ty>>::vector<std::istream_iterator<double,char,std::char_traits<char>,ptrdiff_t>,void>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Ty=float,
+              _Iter=std::istream_iterator<double,char,std::char_traits<char>,ptrdiff_t>,
+              _Alloc=std::allocator<float>
+          ]
+  c:\users\olivi\source\repos\civilprojectroad\civilprojectroad\main.cpp(165): note: see reference to function template instantiation 'std::vector<float,std::allocator<_Ty>>::vector<std::istream_iterator<double,char,std::char_traits<char>,ptrdiff_t>,void>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Ty=float,
+              _Iter=std::istream_iterator<double,char,std::char_traits<char>,ptrdiff_t>,
+              _Alloc=std::allocator<float>
+          ]
   CivilProjectRoad.vcxproj -> C:\Users\olivi\source\repos\CivilProjectRoad\Debug\CivilProjectRoad.exe
